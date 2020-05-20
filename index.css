@@ -1,0 +1,126 @@
+html,
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+.page {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.banner {
+  position: absolute;
+  height: 120px;
+  width: 95px;
+  background-color: #9B30FF;
+  transform: translate(55%);
+  display: flex;
+  justify-content: center;
+  border-radius: 0% 0% 3% 3%;
+  padding-bottom: 15px;
+}
+
+.banner-image {
+  height: 80px;
+  width: 80px;
+  align-self: flex-end;
+}
+
+.title {
+  position: absolute;
+  font-size: 5.5em;
+  color: white;
+  transform: translate(350%, 22%);
+}
+
+.filler-1 {
+  position: absolute;
+  /* background-color: #9B30FF; */
+  width: 550px;
+  height: 100px;
+  background: rgba(155, 48, 255, 0.7);
+  transform: translate(120%, 210%);
+  border-radius: 2%;
+}
+
+.filler-2 {
+  position: absolute;
+  /* background-color: #9B30FF; */
+  width: 650px;
+  height: 100px;
+  background: rgba(155, 48, 255, 0.7);
+  transform: translate(25%, 523%);
+  border-radius: 2%;
+}
+
+.year {
+  position: absolute;
+  font-size: 4em;
+  color: rgba(155, 48, 255, 0.7);
+  transform: translate(300%, 319%);
+}
+
+.state {
+  position: absolute;
+  font-size: 1.9em;
+  color: white;
+  transform: translate(160%, 1250%);
+  letter-spacing: 5px;
+  ;
+}
+
+.blurb-1 {
+  position: absolute;
+  font-size: 1em;
+  width: 500px;
+  height: 20px;
+  color: white;
+  transform: translate(26.5%, 2770%);
+}
+
+.blurb-2 {
+  position: absolute;
+  font-size: 1em;
+  color: rgba(155, 48, 255, 0.7);
+  width: 50px;
+  transform: translate(2300%, 500%);
+}
+
+.dots-1 {
+  position: absolute;
+  /* border: solid red; */
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+  transform: translate(1670%, 3000%);
+}
+
+.dots-2 {
+  position: absolute;
+  /* border: solid red; */
+  color: white;
+  display: inline-block;
+  font-size: 1.5em;
+  transform: translate(1800%, 50%);
+}
+
+.center-image {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 900px;
+  height: 550px;
+}
